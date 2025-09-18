@@ -1,0 +1,1287 @@
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  color: white;
+}
+
+.navbar {
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  background-color: rgb(255, 82, 0);
+}
+
+.logo img {
+  width: 160px;
+  height: 45px;
+  margin-left: 100px;
+}
+
+.nav-links {
+  margin-right: 120px;
+}
+
+.nav-links a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  cursor: pointer;
+}
+
+.getapp {
+  background: rgb(255, 82, 0);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid white;
+  padding: 13px 19px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.getapp .arrow {
+  font-size: 1.4em;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.signin {
+  background: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 15px;
+  border: 1px solid #000;
+  padding: 16px 39px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.hero {
+  background-color: rgb(255, 82, 0);
+max-width: 100%;
+  text-align: center;
+  padding: 60px 20px 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  width: 700px;
+  margin: auto;
+  font-weight: 700;
+}
+
+.search-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.search-box-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+ #text2 {
+  padding: 18px 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 17px;
+  font-weight: 750;
+  width: 480px;
+  max-width: 480px;
+  
+}
+
+
+#text {
+  padding-right: 40px;
+  padding: 18px 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 17px;
+  font-weight: 750;
+  width: 320px;
+  max-width: 320px;
+}
+
+.arrows {
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 1.9rem;
+  color: #0b0b0b;
+}
+
+
+
+.fa-magnifying-glass {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+.side-images {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  pointer-events: none;
+}
+
+.left-img, .right-img {
+  width: 240px;
+  height: auto;
+   max-width: 100%;
+ 
+}
+
+.features-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 30px 10px;
+  background-color: rgb(255, 82, 0);;
+}
+
+.features-row img {
+  width: 370px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+}
+.line{
+  margin:0 0 10px 130px;
+  width:1200px;
+  height:15px;
+  background-color: #fff;
+}
+
+/* section2 */
+
+.food-section {
+  position: relative;
+    max-width: 100%;
+    padding: 0 20px;
+  overflow: hidden;
+  display: block;
+}
+
+.food-container {
+  margin: 100px 100px 0 100px;
+  display: flex;
+  gap: 70px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 30px 40px;
+  /* background-color: aquamarine; */
+}
+.food-container2 {
+  margin: -40px 100px 120px 100px;
+  display: flex;
+  gap: 70px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 30px 40px;
+  /* background-color: brown; */
+}
+.food-container::-webkit-scrollbar {
+  display: none;
+}
+.food-container2::-webkit-scrollbar {
+  display: none;
+}
+
+.food-card {
+  /* min-width: 110px; */
+  max-width:200px; 
+  /* height:200px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  text-align: center;
+  padding-right: 10px;
+  border-radius: 12px;
+}
+
+.food-card img {
+   width: 160px; 
+  height: 120px; 
+  /* object-fit: fill; */
+
+  margin: 20px;
+  max-width: 100%; 
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.food-card p {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(60, 59, 59);
+  padding-left: 5px;
+  letter-spacing:-0.4px; ;
+  margin-top: -10px;
+
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 10%;
+  transform: translateY(-50%);
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.scroll-btn.left {
+  right:190px;
+}
+
+.scroll-btn.right {
+  right: 150px;
+}
+
+/* section3 */
+
+.instamart-section {
+  max-width: 1300px;
+  margin: auto;
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.instamart-section h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #000;padding-bottom: 30px;
+}
+
+.scroll-container1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.grocery-slider {
+  display: flex;
+  gap: 25px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 0px;
+}
+
+.grocery-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.grocery-card {
+  background: #ede9e9;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  text-align: center;
+  width: 150px;
+  padding: 15px 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+}
+
+.grocery-card img {
+  height: 150px;
+  width: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.grocery  {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(60, 59, 59);
+  padding-left: 35px;
+  letter-spacing:-0.4px; ;
+  margin-top: 10px;
+}
+
+.scroll-btns {
+  position: absolute;
+  top:-50px;
+  right: 5px;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.scroll-btns .lefts{
+  right: 40px;
+}
+
+.scroll-btns .rights{
+  right: 0px;
+}
+/* section3
+ */
+.restaurant-section{
+  width:1350px
+}
+ .restaurant-section h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #000;
+  margin-left: 150px;
+  top:10px;
+  font-family: 700;
+}
+
+.scroll-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.card-slider {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 50px 110px;
+  scroll-behavior: smooth;
+  margin-left: 80px;
+}
+
+.card-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.restaurant-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 320px;
+  flex-shrink: 0;
+}
+
+.img-box {
+  position: relative;
+  width: 100%;
+}
+
+.img-box img {
+  height: 170px;
+  display: block;
+  width: 100%;
+}
+
+.rating {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: green;
+  color: #fff;
+  font-size: 13px;
+  padding: 3px 7px;
+  border-radius: 10px;
+}
+
+.details {
+  padding: 15px;
+  font-family: 700;
+}
+
+.details h3 {
+  font-size: 17px;
+  margin: -20px 0 5px;
+  font-family: 700;
+}
+
+.details p {
+  font-size: 13px;
+  color: #444;
+  margin: top -10px;;
+  font-family: 700;
+}
+
+.tag {
+  font-size: 12px;
+  color: #555;
+  background: #f0f0f0;
+  padding: 3px 8px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.offer {
+  background: #007e3e;
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.more {
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+.bank-offer {
+  background: #c7f5e1;
+  color: #007e3e;
+  font-size: 13px;
+  padding: 6px 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+}
+
+.extra {
+  font-size: 12px;
+  color: #555;
+  margin-top: 6px;
+}
+
+.scroll-btn4 {
+  position: absolute;
+  top:-50px;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.scroll-btn4.left {
+  right: 45px;
+}
+
+.scroll-btn4.right {
+  right: 5px;
+}
+.scan {
+  width: 100%;
+}
+
+
+.scan img{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 60px;
+}
+
+/* scetn5 */
+
+.city-section {
+  margin: 20px 180px 80px  ;
+
+}
+
+.city-section h2 {
+  margin: 20px 50px 10px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  color: #000;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin: 0 50px 50px;
+  gap: 15px;
+}
+
+.grid button {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 14px 2px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #545252;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+
+  text-align: center;
+}
+
+
+.grid .more {
+  color: #ff4e00;
+  font-weight: 600;
+  border: 1px solid #ddd;
+}
+/* footer */
+.footer {
+  background-color:rgb(240, 240, 245);;
+  padding: 40px;
+  font-size: 14px;
+  color: #333;
+  width:1500px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:150px;
+  top:8px;
+  margin-bottom: 30px;
+}
+
+.logo-section {
+  /* flex: 1 1 200px; */
+  margin-bottom: 20px;
+  margin-left: 180px;
+}
+.logo-section img{
+  width:150px;
+  max-width: 100%;
+  height: auto;
+}
+.logo-section p{
+font-size: 15px;
+font-weight: 600;
+color: rgb(110, 109, 109);
+
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.footer-columns {
+  display: flex;
+  flex: 3;
+  flex-wrap: wrap;
+  margin-right: 250px;
+}
+
+.column {
+  flex: 10px;
+  margin-bottom: 20px;
+}
+
+.column h4 {
+  font-weight: 700;
+  margin:30px 0 10px;
+  font-size: 19px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.column ul li {
+  /* margin:; */
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(110, 109, 109);
+  cursor: pointer;
+  padding-top:14px;
+  letter-spacing: -.4px;
+
+}
+
+.column select {
+  margin-top: 10px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color:  #ece9e9;
+}
+
+.social-icons i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+}
+
+.hr {
+width:1300px;
+height: 2px;
+background-color:  #5e5b5b;
+  margin: 45px ;
+}
+
+.footer-bottom {
+  text-align: center;
+   display:flex;
+   margin-left: 160px;
+}
+
+.footer-bottom p {
+  color:#3c3b3b;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 25px;
+  letter-spacing: -.8px;
+}
+.app-buttons{
+   margin-left: 20px;
+}
+.app-buttons img {
+  width: 200px;
+  margin: 0 10px;
+  cursor: pointer;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ------------------ Responsive Styles ------------------ */
+
+/* Mobile devices (max width: 480px) */
+@media screen and (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .logo img {
+    margin-left: 0;
+  }
+
+  .nav-links {
+    margin: 10px 0;
+  }
+
+  .hero h1 {
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .search-boxes {
+    flex-direction: column;
+  }
+
+  #text,
+  #text2 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .left-img, .right-img {
+    width: 80px;
+    height: auto;
+   
+  }
+
+  .features-row {
+    padding: 20px 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .line {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .food-container,
+  .food-container2 {
+    margin: 20px 0px;
+    gap: 10px;
+    padding:  10px 0px;
+    overflow-x: hidden;
+
+  }
+
+  .food-card{
+    padding-right: 1px;
+
+  }
+  .food-card img {
+    width: 50px; 
+   height: 32px;
+  }
+  
+  .food-card p {
+    font-size: 8px;
+  }
+  .scroll-btn {
+    width: 12px;
+    height: 12px;
+  }
+  .instamart-section h2 {
+    font-size: 18px;
+    margin-left: 40px;
+  }
+  .grocery-card{
+    width:120px;
+
+  }
+  .grocery  {
+    font-size: 15px;
+  }
+  .grocery-card img {
+    height: 100px;
+    width: 80px;
+  }
+  .grocery-slider{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 10px; 
+}
+  .instamart-section {
+    margin: 20px 0 20px 0;
+  }
+
+  .restaurant-section {
+    width: 100%;
+  }
+  .restaurant-section h2 {
+    font-size: 18px;
+    margin-left: 40px;
+  }
+  .restaurant-card {
+    width:250px;
+    
+    /* overflow:; */
+
+  }
+
+  .card-slider {
+    left:0;
+    padding: 10px 0 60px;
+    overflow-x:visible;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 10px; 
+  }
+
+  .city-section {
+    margin: 20px;
+  }
+  .city-section h2 {
+    margin: 20px 30px;
+    font-size: 18px;
+  }
+  .grid {
+    margin: 0;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 0;
+  }
+
+  .footer-columns {
+    margin-right: 0;
+  }
+
+  .hr {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer-bottom p {
+    font-size: 18px;
+  }
+
+  .app-buttons img {
+    width: 100%;
+    max-width: 200px;
+  }
+  .footer-columns {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr); 
+  }
+  .logo-section {
+    margin-left: 100px;
+  }
+  
+  .column ul li {
+    /* margin:; */
+    font-size: 15px;
+  }
+  .app-buttons img {
+    width: 150px;
+
+  }
+}
+
+
+
+
+
+/* Tablets (481px - 767.98px) */
+@media screen and (min-width: 481px) and (max-width: 769px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .logo img {
+    margin-left: 0;
+  }
+
+  .nav-links {
+    margin: 10px 0;
+  }
+
+  .hero h1 {
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .search-boxes {
+    flex-direction: column;
+  }
+
+  #text,
+  #text2 {
+    width: 50%;
+  }
+
+  .left-img, .right-img {
+    width: 180px;
+    height: auto;
+   
+  }
+
+  .features-row {
+    padding: 20px 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .line {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .food-container,
+  .food-container2 {
+    margin: 30px 0px;
+    gap: 10px;
+    padding:  10px 0px;
+    overflow-x: hidden;
+
+  }
+
+  .food-card{
+    padding-right: 1px;
+
+  }
+  .food-card img {
+    width: 90px; 
+   height: 72px;
+  }
+  
+  .food-card p {
+    font-size: 8px;
+  }
+  .scroll-btn {
+    width: 12px;
+    height: 12px;
+  }
+  
+.scroll-btn.left {
+  right:100px;
+}
+
+.scroll-btn.right {
+  right: 70px;
+}
+.instamart-section{
+  margin-bottom: 40px;
+}
+  .instamart-section h2 {
+    font-size: 22px;
+    margin-left: 60px;
+  }
+  .grocery-card{
+    width:70px;
+    padding: 15px 0px;
+  }
+  
+  .grocery  {
+    font-size: 15px;
+  }
+  .grocery-card img {
+    width: 75px;
+    height: 60px;
+  
+  }
+  .grocery-slider{
+  display: flex;
+  gap: 0px;
+  margin-bottom: 40px;
+}
+  .instamart-section {
+    margin: 20px 0 20px 0;
+  }
+
+  .restaurant-section {
+    width: 100%;
+  }
+  .restaurant-section h2 {
+    font-size: 18px;
+    margin-left: 40px;
+  }
+  .restaurant-card {
+    width:250px;
+  
+  }
+
+  .card-slider {
+    left:0;
+    padding: 10px 10px 60px;
+    overflow-x:visible;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px; 
+  }
+
+  .city-section {
+    margin: 20px;
+  }
+  .city-section h2 {
+    margin: 20px 30px;
+    font-size: 18px;
+  }
+  .grid {
+    margin: 0;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 0;
+  }
+
+  .footer-columns {
+    margin-right: 0;
+  }
+
+  .hr {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer-bottom p {
+    font-size: 18px;
+  }
+
+  .app-buttons img {
+    width: 100%;
+    max-width: 200px;
+  }
+  .footer-columns {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr); 
+  }
+  .logo-section {
+    margin-left: 100px;
+  }
+  
+  .column ul li {
+    /* margin:; */
+    font-size: 15px;
+  }
+  .app-buttons img {
+    width: 150px;
+
+  }
+}
+
+
+
+
+/* Small laptops (768px - 1024px) */
+@media screen and (min-width: 770px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+    left: 0;
+    padding: 30px 0px;
+
+  }
+
+  .logo img {
+    margin-left: 0px;
+
+  }
+
+  .nav-links {
+    margin: 10px 0;
+  }
+
+  .hero h1 {
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .search-boxes {
+    flex-direction: column;
+  }
+
+  #text,
+  #text2 {
+    width: 80%;
+  }
+
+  .left-img, .right-img {
+    width: 200px;
+    height: auto;
+   
+  }
+
+  .features-row {
+    padding: 20px 10px;
+      display: flex;
+  }
+
+  .line {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .food-container,
+  .food-container2 {
+    margin: 30px 0px;
+    gap: 10px;
+    padding:  10px 0px;
+    overflow-x: hidden;
+
+  }
+
+  .food-card{
+    padding-right: 1px;
+
+  }
+  .food-card img {
+    width: 90px; 
+   height: 72px;
+  }
+  
+  .food-card p {
+    font-size: 8px;
+  }
+  .scroll-btn {
+    width: 12px;
+    height: 12px;
+  }
+  
+.scroll-btn.left {
+  right:100px;
+}
+
+.scroll-btn.right {
+  right: 70px;
+}
+.instamart-section{
+  margin-bottom: 40px;
+}
+  .instamart-section h2 {
+    font-size: 22px;
+    margin-left: 60px;
+  }
+  .grocery-card{
+    width:100px;
+    padding: 15px 0px;
+  }
+  
+  .grocery  {
+    font-size: 15px;
+  }
+  .grocery-card img {
+    width: 95px;
+    height: 80px;
+  
+  }
+  .grocery-slider{
+  display: flex;
+  gap: 0px;
+  margin-bottom: 40px;
+}
+  .instamart-section {
+    margin: 20px 0px 20px 0;
+  }
+
+  .restaurant-section {
+    width: 100%;
+  }
+  .restaurant-section h2 {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .restaurant-card {
+    width:220px;
+  
+  }
+
+  .card-slider {
+    margin-left: 20px;
+    padding: 10px 0px 60px;
+    overflow-x:visible;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 30px; 
+  }
+
+  .city-section {
+    margin: 20px;
+  }
+  .city-section h2 {
+    margin: 20px 30px;
+    font-size: 18px;
+  }
+  .grid {
+    margin: 0;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 0;
+  }
+
+  .footer-columns {
+    margin-right: 0;
+  }
+
+  .hr {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer-bottom p {
+    font-size: 18px;
+  }
+
+  .app-buttons img {
+    width: 100%;
+    max-width: 200px;
+  }
+  .footer-columns {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr); 
+  }
+  .logo-section {
+    margin-left: 100px;
+  }
+  
+  .column ul li {
+    /* margin:; */
+    font-size: 16px;
+  }
+  .app-buttons img {
+    width: 150px;
+
+  }
+}
+
+
+
+
+/* Desktops (1025px and above) */
+@media screen and (min-width: 1025px) {
+  .container {
+    flex-direction: row;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .card {
+    flex: 1;
+  }
+
+  .card1 {
+    flex: 1.5;
+  }
+}

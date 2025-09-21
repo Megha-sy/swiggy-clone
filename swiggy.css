@@ -1269,7 +1269,7 @@ background-color:  #5e5b5b;
 
 
 
-/* Desktops (1025px and above) */
+/* Desktops (1025px and above)
 @media screen and (min-width: 1025px) {
   .container {
     flex-direction: row;
@@ -1284,4 +1284,4 @@ background-color:  #5e5b5b;
   .card1 {
     flex: 1.5;
   }
-}
+} */
